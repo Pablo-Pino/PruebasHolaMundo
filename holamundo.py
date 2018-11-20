@@ -4,6 +4,8 @@ def holamundo():
     cadena = None
     try:
         name = sys.argv[1]
+        if(name == 'Federico'):
+            raise Exception('No me vale Federico')
         cadena = "Hola " + name
         print(cadena)
     except IndexError:

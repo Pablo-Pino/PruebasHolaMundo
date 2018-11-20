@@ -4,3 +4,4 @@ python:
 script:
   - python3 holamundo.py Juan
   - python3 holamundo.py
+  - python3 holamundo.py Federico
